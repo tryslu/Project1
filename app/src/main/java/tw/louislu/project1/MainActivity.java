@@ -25,9 +25,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void ChanghwaImageButtonOnClick(View view){
         /*
-                Intent intent  = new Intent(this, BikeActivity.class);
-                intent.putExtra(CITY_MESSAGE, getString(R.string.changhwa));
-                startActivity(intent); */
+        Intent intent  = new Intent(this, BikeActivity.class);
+        intent.putExtra(CITY_MESSAGE, getString(R.string.changhwa));
+        startActivity(intent);
+        */
         AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
         builder.setPositiveButton(R.string.ok, new DialogInterface.OnClickListener(){
             @Override
