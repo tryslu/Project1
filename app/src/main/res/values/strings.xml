@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Project1</string>
+    <string name="taipei">taipei</string>
+    <string name="changhwa">changhwa</string>
+    <string name="ok">確定</string>
+    <string name="buddaMessage">佛說，彰化市YouBike沒有Opendata，那是天機</string>
 </resources>

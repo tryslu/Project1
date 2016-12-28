@@ -22,23 +22,26 @@
         <ImageButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/taipeiKp"
-            android:id="@+id/taipei_imageButton"
+            app:srcCompat="@drawable/taipei_kp"
+            android:id="@+id/taipei_ImageButton"
             android:layout_alignParentBottom="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_weight="1" />
+            android:onClick="TaipeiImageButtonOnClick"
+            android:background="@android:color/background_light" />
 
         <ImageButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/changhwaBudda"
+            app:srcCompat="@drawable/changhwa_budda"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:id="@+id/changhwa_imageButton"
+            android:id="@+id/changhwa_ImageButton"
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
-            android:layout_weight="1" />
+            android:onClick="ChanghwaImageButtonOnClick"
+            android:background="@android:color/background_light"
+            android:paddingTop="@dimen/activity_vertical_margin" />
     </LinearLayout>
 </RelativeLayout>
